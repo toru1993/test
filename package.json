@@ -1,0 +1,23 @@
+{
+  "name": "discord-notify-bot",
+  "version": "1.0.0",
+  "description": "特定サーバーのチャンネルにスラッシュコマンドで通知を送るDiscordボット",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "deploy-commands": "node deploy-commands.js",
+    "start": "node index.js",
+    "send-line": "node send-line.js",
+    "flush-line-queue": "node flush-line-queue.js",
+    "setup-gmail-auth": "node setup-gmail-auth.js",
+    "check-zoom": "node check-zoom-meetings.js",
+    "extract-zoom-schedule": "node extract-zoom-schedule.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "google-auth-library": "^9.15.0",
+    "googleapis": "^144.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+.env
+gmail-token.json
+processed-meetings.json
+client_secret_*.json
+zoom-schedule.md
+line-queue.json
+line-flush.log
+.claude/
